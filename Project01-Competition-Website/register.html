@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - ACL Book Reading Competition 2024</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section id="register">
+            <h3>Registration Form</h3>
+            <form action="getformdata.php" method="post">
+                <fieldset>
+                    <legend>Participant's Information</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input id="name" type="text" required>
+                    </div>
+
+                    <div>
+                        <label for="id">ACL ID:</label>
+                        <input id="id" type="number" required>
+                    </div>
+
+                    <div>
+                        <label for="school">School:</label>
+                        <input id="school" type="text" required>
+                    </div>
+                    
+                    <div>
+                        <label for="class">Class:</label>
+                        <select id="class" required>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="roll">Roll:</label>
+                        <input id="roll" type="number" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Guardian's Information</legend>
+                    <div>
+                        <label for="guard_name">Guardian's Name:</label>
+                        <input id="guard_name" type="text" required>
+                    </div>
+
+                    <div>
+                        <label>Relation with Guardian:</label>
+                        <input id="guard_rel_father" name="guard_rel" type="radio" value="father" required><label for="guard_rel_father">Father</label>
+                        <input id="guard_rel_mother" name="guard_rel" type="radio" value="mother" required><label for="guard_rel_mother">Mother</label>
+                        <input id="guard_rel_other" name="guard_rel" type="radio" value="other" required><label for="guard_rel_other">Other</label>
+                    </div>
+
+                    <div>
+                        <label for="guard_phn">Guardian's Phone:</label>
+                        <input id="guard_phn" type="tel" required>
+                    </div>
+
+                    <div>
+                        <label for="guard_addr">Guardian's Address:</label>
+                        <input id="guard_addr" type="text" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Agreement</legend>
+                    <input id="guarantee" type="checkbox" required><label for="guarantee">I guarantee that the provided information are correct. If any information is faulty or manipulated, then the organizers has rights to discard my registration.</label>
+                </fieldset>
+                <div class="form-buttons">
+                    <input type="submit" id="submit">
+                    <input type="reset" id="reset">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Made with 💕 by <a href="http://github.com/mdvirus" target="_blank">@mdvirus</a></p>
+    </footer>
+</body>
+</html>

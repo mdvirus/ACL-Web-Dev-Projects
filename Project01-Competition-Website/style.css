@@ -1,0 +1,104 @@
+/* resetting default margin/padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* background for whole webpage */
+body {
+    background-image: url(img/book-bg.jpg);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+/* setting default properties for each section */
+section {
+    background-color: rgba(255, 255, 255, 0.96);
+    margin: 20px;
+    padding: 50px;
+    border: 2px dashed black;
+    border-radius: 6px;
+}
+section h3 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+/* properties for: homepage - hero section */
+section#hero {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
+section#hero button {
+    margin-top: 20px;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+}
+
+/* properties for: homepage - details section */
+section#details h4 {
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+section#details ol, section#details ul {
+    margin-left: 50px;
+}
+section#details ol li span, section#details ul li span {
+    font-weight: 600;
+}
+
+/* properties for: homepage - schedule section */
+section#schedule div {
+    overflow-x: auto;
+}
+section#schedule table {
+    width: 100%;
+    caption-side: bottom;
+}
+section#schedule table, section#schedule table tr, section#schedule table th, section#schedule table td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+/* properties for: homepage - organizers section */
+section#organizers div {
+    text-align: center;
+}
+section#organizers div img {
+    width: 150px;
+}
+
+/* properties for: register page - form section */
+section#register form fieldset {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+section#register form div {
+    margin-bottom: 5px;
+}
+section#register form div.form-buttons input {
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* properties for: footer */
+footer {
+    border-top: 2px dashed black;
+    background-color: white;
+}
+footer p {
+    text-align: center;
+    font-size: medium;
+}
