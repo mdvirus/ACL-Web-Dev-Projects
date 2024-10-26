@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+</head>
+<body>
+    <!-- Comment -->
+    <marquee>This is an example of how html elements are shown in the browser.</marquee>
+    <h1>HEADING 1</h1>
+    <h2>HEADING 2</h2>
+    <h3>HEADING 3</h3>
+    <h4>HEADING 4</h4>
+    <h5>HEADING 5</h5>
+    <h6>HEADING 6</h6>
+    <p>PARAGRAPH: <a href="https://loremipsum.com" target="_blank">Lorem ipsum dolor sit amet</a> <b>bold</b> <i>italic</i> <u>underline</u> <s>strikethrough</s>. <var>(a+b)<sup>2</sup> = a<sup>2</sup> + 2ab + b<sup>2</sup></var>. H<sub>2</sub> + O<sub>2</sub> = H<sub>2</sub>O. <mark>Highlighted text</mark> <small>Small text</small> <kbd>Ctrl + C</kbd> <cite>To be or not to be, that is the question</cite> <abbr title="Hyper Text Markup Language">HTML</abbr> asperiores voluptas debitis laudantium, hic laboriosam aut, sunt velit praesentium eveniet fugiat magni beatae vel! Dignissimos incidunt ad accusamus recusandae vero.</p>
+    <pre><code lang="c">#include &lt;stdio.h&gt;
+int main() {
+    printf("Hello World!\n");
+    return 0;
+}</code></pre>
+    <pre><samp>Hello World!
+Process completed successfully. Returned 0 (0.0001s)</samp></pre>
+    <blockquote cite="https://nhspc.net"><q>Januk sobai dekhao tumi</q> - NHSPC Slogan</blockquote>
+    <address>House#82, Road#2, Bashundhara, Dhaka</address>
+    <hr>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>XML</li>
+    </ul>
+    <ol>
+        <li>VScode</li>
+        <li>SublimeText</li>
+        <li>Vim</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HTML or Hypertext Markup Language is used to structure a webpage.</dd>
+        <dt>CSS</dt>
+        <dd>CSS or Cascading Style Sheet is used to define the design of an webpage.</dd>
+    </dl>
+    <table border="1">
+        <caption>Table to display football players</caption>
+        <thead>
+            <tr><th>Bangladesh</th><th>England</th><th>India</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Jamal Bhuiya</td><td>Harry Cane</td><td>Sunil Chhetri</td></tr>
+            <tr><td>Sohel Rana</td><td>Bukayo Saka</td><td>Subrata Paul</td></tr>
+            <tr><td colspan="2">Hamza Chowdhuri</td><td rowspan="2">Anirudh Thapa</td></tr>
+            <tr><td>Anisur Rahman Zico</td><td>Alexandar Arnold</td></tr>
+        </tbody>
+    </table>
+    <img src="data:image/png;base64,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" width="100%" height="100%" alt="text to display if image not available" loading="lazy">
+    <audio controls autoplay muted>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+    <video width="100%" height="100%" controls autoplay muted>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <form action="action.php" method="get|post" target="_self|_blank|_parent|_top" autocomplete="on|off" novalidate>
+        <fieldset>
+            <legend>Login form</legend>
+            <label for="email">E-mail:</label>
+            <input id="email" name="email" type="email" autofocus required><br>
+            <label for="pass">Password:</label>
+            <input id="pass" name="pass" type="password" required><br>
+            <input type="submit" value="Login">
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+    <details>
+        <summary>Is the attack on Gaza justified? Read more...</summary>
+        <p>Ovbiously not. Israelis say, they only attack Gaza because they want to eradicate Hamas. But why they are attacking in cities where there is no presence of Hamas? It is not justified.</p>
+    </details>
+</body>
+</html>
